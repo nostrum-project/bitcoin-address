@@ -6,13 +6,13 @@ var crypto = require('crypto');
 var base58 = require('./base58');
 
 var address_types = {
-    prod: '00',
-    testnet: '6f'
+    prod: '17',
+    testnet: '55'
 };
 
 var p2sh_types = {
-    prod: '05',
-    testnet: 'c4'
+    prod: '6F',
+    testnet: 'C4'
 };
 
 /// return address type if valid base58 address, otherwise null
